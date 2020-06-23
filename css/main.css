@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Avenir Next', sans-serif;
+    text-align: center;
+    color: #191919;
+    background-color: #fbfbfb;
+}
+html, body, main {
+    width: 100%;
+    position: relative;
+}
+.container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 2.25rem;
+}
+img {
+    display: block;
+    width: 100%;
+}
+h1 {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+}
+p, p a {
+    font-size: 0.875rem;
+    line-height: 1.75;
+}
+p a {
+    color: #517A17;
+    font-weight: 600;
+}
+.go-plus-logo {
+    height: 52px;
+    display: inline-block;
+    margin: 3rem auto 0 auto;
+}
+.go-plus-logo img {
+    height: 100%;
+    width: auto;
+}
+.portal-mockup {
+    padding: 1rem 1rem 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.portal-mockup::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, #fbfbfb, rgba(255, 255, 255, 0));
+}
+.icon {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 0 auto .5rem;
+}
+
+.terms {
+    background-color: #F2F2F2;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    background-color: #517A17;
+    margin: 0;
+    padding: .5rem 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li + li {
+    margin-left: 1rem;
+}
+
+footer ul li a {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.copyright-block {
+    margin: 1.5rem 0;
+}
+
+.copyright-block a {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+}
+.copyright-block p {
+    margin: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.dialog {
+    display: none;
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+body.show-modal {
+    overflow: hidden;
+}
+
+body.show-modal .modal {
+    display: block;
+}
+
+@media screen and (min-width: 667px) {
+    .container {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .portal-mockup {
+        width: 75%;
+        padding-bottom: 75%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    footer {
+        margin-top: 1rem;
+    }
+    .terms {
+        padding: .5rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portal-mockup {
+        padding-top: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    p, p a {
+        font-size: 1rem;
+    }
+    .go-plus-logo {
+        margin-top: 5rem;
+    }
+    .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+    .portal-mockup {
+        padding-top: 1.5rem;
+        width: 65%;
+        padding-bottom: 65%;
+        margin-bottom: 2rem;
+    }
+    footer {
+        margin-top: 1.5rem;
+    }
+    .terms {
+        padding: .75rem 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .portal-mockup {
+        padding-top: 1.75rem;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+    .terms {
+        padding: 1rem 0;
+    }
+    footer ul li a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .copyright-block {
+        margin: 2rem 0;
+    }
+    .copyright-block a {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .container {
+        width: 40%;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    p, p a {
+        font-size: 1.125rem;
+    }
+    .go-plus-logo {
+        margin-top: 6rem;
+    }
+    .portal-mockup {
+        padding-top: 2rem;
+    }
+    .icon {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    footer ul li a {
+        width: 3rem;
+        height: 3rem;
+    }
+}

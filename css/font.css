@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Avenir Next";
+    font-weight: 700;
+    font-style: normal;
+    src:url("/fonts/AvenirNextW05-Bold.woff2") format("woff2"),url("/fonts/AvenirNextW05-Bold.woff") format("woff");
+}
+@font-face{
+    font-family: "Avenir Next";
+    font-weight: 600;
+    font-style: normal;
+    src:url("/fonts/AvenirNextW05-Demi.woff2") format("woff2"),url("/fonts/AvenirNextW05-Demi.woff") format("woff");
+}
+@font-face{
+    font-family: "Avenir Next";
+    font-weight: 500;
+    font-style: normal;
+    src:url("/fonts/AvenirNextW05-Medium.woff2") format("woff2"),url("/fonts/AvenirNextW05-Medium.woff") format("woff");
+}
+@font-face{
+    font-family: "Avenir Next";
+    font-weight: 400;
+    font-style: normal;
+    src:url("/fonts/AvenirNextW05-Regular.woff2") format("woff2"),url("/fonts/AvenirNextW05-Regular.woff") format("woff");
+}
+@font-face{
+    font-family: "Avenir Next";
+    font-weight: 400;
+    font-style: italic;
+    src:url("/fonts/AvenirNextW05-Italic.woff2") format("woff2"),url("/fonts/AvenirNextW05-Italic.woff") format("woff");
+}
